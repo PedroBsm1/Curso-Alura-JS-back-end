@@ -1,0 +1,12 @@
+const notas = [10, 9.5, 8, 7, 6]
+console.log(notas)
+const notasAtualizadas = notas.map((nota)=>{
+    return nota + 1 >= 10 ? 10: nota +1;
+    // ou
+    // if(nota >= 10){
+    //     return nota = 10;
+    //  }else{
+    //      return nota +1;
+    //  }
+})
+console.log(notasAtualizadas)
